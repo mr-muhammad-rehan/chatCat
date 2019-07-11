@@ -1,0 +1,24 @@
+{
+  "name": "chatcat",
+  "version": "1.0.0",
+  "description": "Chat Application with chatrooms ",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Muhammad",
+  "license": "ISC",
+  "engines": {
+    "node": "10.16.0"
+  },
+  "dependencies": {
+    "connect-mongo": "^3.0.0",
+    "connect-mongodb-session": "^2.2.0",
+    "ejs": "2.3.4",
+    "express": "^4.17.1",
+    "express-session": "1.12.1",
+    "mongoose": "4.9.8",
+    "passport": "0.3.2",
+    "passport-facebook": "2.0.0",
+    "passport-twitter": "1.0.3"
+  }
+}
