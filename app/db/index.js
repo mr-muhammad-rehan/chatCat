@@ -1,7 +1,6 @@
 'use strict'
 const config = require('../config');
-const Mongoose = require('mongoose')
-                        .connect(config.dbURI);
+const Mongoose = require('mongoose').connect(config.dbURI);
 
 //Log Mongos Errors 
 Mongoose.connection.on('error', error=>{
@@ -9,7 +8,7 @@ Mongoose.connection.on('error', error=>{
 });
 
 //Create Schema for Mongo DB (Define Structure of Collection)
-const chatUser = new Mongoose.schema({
+const chatUser = new Mongoose.Schema({
         profileId:          String,
         fullName:           String,
         profilePic:         String
