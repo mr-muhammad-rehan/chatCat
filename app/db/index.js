@@ -2,6 +2,8 @@
 const config = require('../config');
 const Mongoose = require('mongoose').connect(config.dbURI);
 
+Mongoose.Promise = global.Promise;
+
 //Log Mongos Errors 
 Mongoose.connection.on('error', error=>{
     console.log('Mongo Error:', error);

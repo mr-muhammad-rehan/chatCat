@@ -30,7 +30,7 @@ module.exports = () =>{
                     //create new user and return 
                     h.createNewuser(profile)
                             .then(newChatUser => done(null, newChatUser))
-                            .catch(error => console.log('Error when creating new user'));
+                            .catch(error => console.log('Error when creating new user'+ error));
                 }
             });
 
@@ -39,6 +39,6 @@ module.exports = () =>{
 
     passport.use(new FacebookStrategy
                     (   config.fb,                      
-                        authProcessor
+                        authProcessor,
                     ));
 }

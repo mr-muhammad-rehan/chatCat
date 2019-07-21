@@ -56,7 +56,7 @@ let createNewuser= profile=>{
             db.userModel.findById(id, (error, user) => {
                 if(error){
                     reject(error);
-                }else{
+                }else{ 
                     resolve (user);
                 }
             });
