@@ -4,7 +4,7 @@
   "description": "Realtime chat app with rooms",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
+    "start": "nodemon server",
     "dev": "nodemon server"
   },
   "author": "Muhammad",
@@ -15,6 +15,6 @@
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.4"
   }
 }
