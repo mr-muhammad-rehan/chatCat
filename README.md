@@ -9,6 +9,6 @@ Go to localhost:3000
 ```
 
 
-Live Demo
 
-[Chat Cat]: https://multi-rooms-chat.herokuapp.com/
+
+[Live Demo](https://multi-rooms-chat.herokuapp.com/)
