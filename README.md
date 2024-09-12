@@ -9,6 +9,4 @@ Go to localhost:3000
 ```
 
 
-
-
-[Live Demo](https://multi-rooms-chat.herokuapp.com/)
+ 
